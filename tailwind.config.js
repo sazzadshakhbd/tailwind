@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         headline: ["Oswald"],
       },
+      colors: {
+        mainColor: "#212f49",
+      },
     },
   },
   variants: {
