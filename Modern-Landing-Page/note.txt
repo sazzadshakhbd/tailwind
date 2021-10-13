@@ -1,0 +1,14 @@
+1. node -v
+2. npm -v
+3. npm init -y
+4. npm install tailwindcss
+5. create src folder > create style.css file > copy base,component,utilities and paste css file
+6. create public folder > create style.css and index.html file
+7. Write to this code instead of this line package.json file
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "build:tailwinds": "tailwind build src/style.css -o public/style.css"
+  },
+   
