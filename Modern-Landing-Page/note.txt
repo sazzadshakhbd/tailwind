@@ -11,4 +11,6 @@
   "scripts": {
     "build:tailwinds": "tailwind build src/style.css -o public/style.css"
   },
+8. create index.html file and link style.css file
+9. npx tailwindcss init
    
