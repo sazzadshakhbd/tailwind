@@ -1,0 +1,10 @@
+1. npm init -y [project initialize]
+2. npm i -D tailwindcss [install tailwindcss]
+3. Install vs code extension name [Tailwind CSS IntelliSense - Brad Cornes]
+4. npx tailwindcss init [create tailwind config file]
+5. Create src folder and output folder
+6. create tailwind.css file in src folder and paste @base, @component & @utilities code
+7. wirte this code in package.json file---
+   "scripts": {
+	"build-css": "tailwind -i ./src/tailwind.css -o ./output/style.css -w"	 
+}
